@@ -1,6 +1,4 @@
-#!/usr/bin/puthon3
-# calculator_1.py
-
+#!/usr/bin/python3
 if __name__ = "__main__":
     """Print the sum, subtraction, multiplication and division of 10 and 5 """
     from calculator_1 import add, sub, mul, div
