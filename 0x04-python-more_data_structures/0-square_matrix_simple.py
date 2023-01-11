@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    if not matrix:
-        print()
-    return [[item**2 for item in row] for row in matrix]
+    new_matrix = []
+    for row in (matrix):
+            new_matrix.append([x*x for x in row])
+    return new_matrix
