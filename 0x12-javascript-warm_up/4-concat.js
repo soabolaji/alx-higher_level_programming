@@ -1,5 +1,4 @@
 #!/usr/bin/node
 
-const entry = process.argv;
+console.log(`${process.argv[2]} is ${process.argv[3]}`);
 
-console.log(entry[2], 'is', entry[3]);
