@@ -20,4 +20,4 @@ request(process.argv[2], (err, res, body) => {
     }
   }
   console.log(dct);
-});;
+});
